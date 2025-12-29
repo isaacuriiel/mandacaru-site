@@ -13,13 +13,8 @@ header {
 }
 
 .logo {
-  width: 120px;
+  width: 100px;
   margin-bottom: 1rem;
-}
-
-.hero {
-  padding: 2rem;
-  background: #fefae0; /* mesmo fundo do body */
 }
 
 h1 {
@@ -29,39 +24,6 @@ h1 {
 
 p {
   font-size: 1.2rem;
-}
-
-.buttons {
-  margin-top: 1.5rem;
-}
-
-.btn {
-  display: inline-block;
-  margin: 0.5rem;
-  padding: 0.8rem 1.5rem;
-  background: #386641;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: bold;
-}
-
-.btn.secondary {
-  background: #6a994e;
-}
-
-.features {
-  padding: 2rem;
-}
-
-.features ul {
-  list-style: none;
-  padding: 0;
-}
-
-.features li {
-  font-size: 1.1rem;
-  margin: 0.5rem 0;
 }
 
 .cards {
@@ -86,7 +48,19 @@ p {
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
+.buttons {
+  margin-top: 1.5rem;
+}
+
 .btn {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  background: #386641;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
   position: relative;
   overflow: hidden;
 }
@@ -104,6 +78,24 @@ p {
 
 .btn:hover::after {
   left: 0;
+}
+
+.btn.secondary {
+  background: #6a994e;
+}
+
+.features {
+  padding: 2rem;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
 }
 
 @media (max-width: 600px) {
